@@ -1,9 +1,9 @@
 function Home() {
   return (
-    <>
-    <h1>Welcome to Keith's Portfolio</h1>
-    <p>Click around</p>
-    </>
+    <div>
+      <h1>Welcome to Keith's Portfolio</h1>
+      <p>Bruh why isn't this working</p>
+    </div>
   )
 }
 

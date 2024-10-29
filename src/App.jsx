@@ -1,21 +1,19 @@
-import { Route, Routes } from 'react-router-dom';
-import './styles/App.css';
-import Home from './pages/home';
 import Header from './components/header';
 import Footer from './components/footer';
+import { Outlet } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Includes Popper.js as well
 
 function App() {
   return (
-    <>
-    <Header/>
-    <main>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
-      </Routes>
-    </main>
-    <Footer/>
-    </>
+    <div>
+      <Header />
+      <main>
+        {/* Renders the matched route component */}
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
   )
 }
 
