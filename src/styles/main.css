@@ -33,7 +33,7 @@ p {
     transition: opacity 0.3s ease;
 }
 .image-hover img:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .bg-blue {
     background-color: rgba(13,110, 253, 75%);
@@ -75,4 +75,16 @@ p {
     z-index: 2; /* Ensure content is above the blurred background */
     color: white; 
     padding: 20px; 
+}
+
+/* glow effect css */
+.glow {
+    background-color: #007bff;
+    /* color: white; */
+    border-radius: 5px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.glow:hover {
+    box-shadow: 0 0 10px 10px rgba(0, 123, 255, 0.6); /* Blue glow effect */
 }
