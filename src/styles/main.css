@@ -1,5 +1,10 @@
-.navbar {
+p {
+    font-size: large;
+}
+/* Navbar styles */
+.navbar, footer {
     background-color: #054be0 !important;
+    color: white;
 }
 .navbar-brand {
     color: white;
@@ -10,7 +15,64 @@
 .navbar-toggler {
     background-color: #6590eb;
 }
+.nav-item{
+    border-radius: 4px;
+}
+.nav-link{
+    padding: var(--bs-nav-link-padding-y) 7px;
+    color: white;
+}
 .active {
     background-color: #6590eb;
     color: white !important;
+}
+
+/* Home Page CSS */
+.image-hover img {
+    background-color: black;
+    transition: opacity 0.3s ease;
+}
+.image-hover img:hover {
+    opacity: 0.7;
+}
+.bg-blue {
+    background-color: rgba(13,110, 253, 75%);
+}
+.display-2 {
+    color:#0D6EFD;
+}
+.portfolio-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2020/01/11/07/39/north-4756774_960_720.jpg');
+}
+.contact-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2019/09/04/19/14/planet-4452434_960_720.jpg');
+}
+.resume-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_960_720.jpg');
+}
+.portfolio-bg,
+.contact-bg,
+.resume-bg {
+    position: relative; 
+}
+.portfolio-bg::before,
+.contact-bg::before,
+.resume-bg::before {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    background-image: inherit; 
+    background-size: cover;
+    background-position: center; 
+    filter: blur(10px); /* Apply the blur effect */
+    z-index: 1; /* Ensure it's behind the overlay text */
+}
+.no-blur {
+    position: relative; /* Position content above the blurred background */
+    z-index: 2; /* Ensure content is above the blurred background */
+    color: white; 
+    padding: 20px; 
 }

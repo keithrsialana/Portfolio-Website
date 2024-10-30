@@ -5,7 +5,7 @@ function NavItem({ label, to }) {
   const urlLocation = useLocation().pathname;
   const location = urlLocation.replace('/', '');
   
-  if ((location != '' && location == label.toLowerCase()) || (urlLocation == "/" && label == "Home")){
+  if ((location != '' && location == label.toLowerCase()) || (urlLocation == "/" && label == "About Me")){
     return (
       <li className='nav-item active'>
         <Link to={to} className="nav-link">{label}</Link>

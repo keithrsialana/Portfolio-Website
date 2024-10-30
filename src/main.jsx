@@ -3,7 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 // Pages
 import App from './App'
 import Home from './pages/home'
-import AboutMe from './pages/aboutMe'
+import Contact from './pages/contact'
+import Portfolio from './pages/portfolio'
+import Resume from './pages/resume'
 import { StrictMode } from 'react'
 
 // creates available paths
@@ -13,7 +15,9 @@ const router = createBrowserRouter([
     element: <App />, // the component where the paths are rendered
     children: [
       { path: '/', element: <Home /> },
-      { path: '/about', element: <AboutMe /> }
+      { path: '/portfolio', element: <Portfolio /> },
+      { path: '/contact', element: <Contact /> },
+      { path: '/resume', element: <Resume /> }
     ],
   },
 ])

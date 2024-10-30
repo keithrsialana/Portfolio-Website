@@ -5,8 +5,9 @@ function Header() {
 	return (
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
 			<div class="container-fluid">
+				
 				<Link to={"/"} className="navbar-brand">
-					Keith Sialana
+					Keith Sialana's <strong>[Portfolio]</strong>
 				</Link>
 				<button
 					class="navbar-toggler"
