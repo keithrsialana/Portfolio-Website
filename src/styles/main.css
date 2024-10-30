@@ -2,13 +2,18 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-ul {
-    display: flex;
+.navbar {
+    background-color: #054be0 !important;
 }
-header {
-    list-style: none;
-    text-decoration-color: white;
-    display: flex;
-    background-color: #054be0;
-    justify-content: center;
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-toggler {
+    background-color: #6590eb;
+}
+.active {
+    background-color: #6590eb;
 }
