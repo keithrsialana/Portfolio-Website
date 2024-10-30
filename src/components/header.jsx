@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 function Header() {
 	return (
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
-			<div class="container-fluid">
+		<nav className="navbar navbar-expand-lg bg-body-tertiary">
+			<div className="container-fluid">
 				
 				<Link to={"/"} className="navbar-brand">
 					Keith Sialana's <strong>[Portfolio]</strong>
 				</Link>
 				<button
-					class="navbar-toggler"
+					className="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarNav"
@@ -18,7 +18,7 @@ function Header() {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span class="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon"></span>
 				</button>
 				<Navbar />
 			</div>
