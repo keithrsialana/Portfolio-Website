@@ -10,13 +10,13 @@ const projectElement = (props) => {
                 <p className="text-danger">[{tech}]</p>
 				<p className="card-text">{description}</p>
 				<div className="container-fluid">
-					<div className="row row-cols-2 text-center">
-						<div className="col">
+					<div className="row text-center">
+						<div className="col-md-6">
 							<a href={gitHubUrl} className="btn btn-primary">
 								Check the Code!
 							</a>
 						</div>
-						<div className="col">
+						<div className="col-md-6">
 							{deployedUrl && (
 								<a href={deployedUrl} className="btn btn-warning">
 									View the site!

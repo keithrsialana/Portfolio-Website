@@ -1,10 +1,14 @@
-p {
-	font-size: large;
-}
 .fixed-img {
 	height: 200px; /* Set a fixed height */
 	object-fit: cover; /* Crop images to fit while maintaining aspect ratio */
 	width: 100%; /* Make sure the image fills the card width */
+}
+.card {
+	margin-bottom: 10px;
+}
+.max-size-90 {
+    max-height: 90%;
+	max-width: 90%;
 }
 /* Navbar styles */
 .navbar,

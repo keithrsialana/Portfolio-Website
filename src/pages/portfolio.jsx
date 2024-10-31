@@ -72,10 +72,10 @@ const portfolio = () => {
 				Here are some projects I've done!
 			</h1>
 			<div className="card-group">
-				<div className="row row-cols-3">
+				<div className="row">
 					{projects.map((project) => {
 						return (
-							<div className="col">
+							<div className="col-md-4">
 								<ProjectElement
 									title={project.title}
                   tech={project.tech}
