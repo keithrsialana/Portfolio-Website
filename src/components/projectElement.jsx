@@ -11,15 +11,15 @@ const projectElement = (props) => {
 				<p className="card-text">{description}</p>
 				<div className="container-fluid">
 					<div className="row text-center">
-						<div className="col-md-6">
+						<div className="col-md-6 mb-2">
 							<a href={gitHubUrl} className="btn btn-primary">
-								Check the Code!
+								View code!
 							</a>
 						</div>
 						<div className="col-md-6">
 							{deployedUrl && (
 								<a href={deployedUrl} className="btn btn-warning">
-									View the site!
+									View website!
 								</a>
 							)}
 						</div>
