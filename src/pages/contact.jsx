@@ -6,17 +6,29 @@ const contact = () => {
 	const [email, setEmail] = useState("");
 	const [name, setName] = useState("");
 	const [message, setMessage] = useState("");
+	// check if valid email with regex
+	const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 	function handleNameChange(e) {
 		setName(e.target.value);
 	}
 
 	function handleEmailChange(e) {
+		if (!emailPattern.test(email))
+			setHTMLError("You have entered an invalid email");
+		else 
+			setHTMLError("");
 		setEmail(e.target.value);
 	}
 
 	function handleMessageChange(e) {
 		setMessage(e.target.value);
+	}
+
+	function onMouseLeave(e) {
+		if (e.target.value == "")
+			alert("(Required) You need to fill in all the fields!");
+		return;
 	}
 
 	useEffect(() => {
@@ -29,9 +41,6 @@ const contact = () => {
 	function checkInput(e) {
 		// prevent page from reloading
 		e.preventDefault();
-
-		// check if valid email with regex
-		const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 		if (name == "" || message == "" || email == "") {
 			if (name == "") {
@@ -84,6 +93,7 @@ const contact = () => {
 							placeholder="John Doe"
 							value={name}
 							onChange={handleNameChange}
+							onMouseLeave={onMouseLeave}
 						/>
 					</div>
 				</div>
@@ -99,6 +109,7 @@ const contact = () => {
 							placeholder="email@example.com"
 							value={email}
 							onChange={handleEmailChange}
+							onMouseLeave={onMouseLeave}
 						/>
 					</div>
 				</div>
