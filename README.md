@@ -18,7 +18,7 @@ This is my official portfolio website! Here, I'm showcasing my ability to create
 2. Use `npm run preview` to run the project
 3. On your web browser, navigate to `http://localhost:4173` to access the website
 ### Accessing the deployed website
- N/A
+Go to [https://keithsialana.netlify.app/](https://keithsialana.netlify.app/) to access the deployed website
 ## Credits
 Keith Sialana
 ## License

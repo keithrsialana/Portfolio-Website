@@ -30,7 +30,7 @@ const portfolio = () => {
 			imgUrl:
 				"https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_960_720.jpg",
 			gitHubUrl: "https://github.com/keithrsialana/Portfolio-Website",
-			deployedUrl: "",
+			deployedUrl: "https://keithsialana.netlify.app/",
 		},
 		{
 			title: "Project-README",
