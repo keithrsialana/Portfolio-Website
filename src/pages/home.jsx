@@ -32,7 +32,7 @@ function Home() {
 					<div className="text-center">
 						<img
 							className="img-fluid meLOLimage glow"
-							src="src\assets\MeLOL2.JPEG"
+							src="https://i.imgur.com/0UqyRgw.jpeg"
 							alt="Keith Sialana"
 						/>
 					</div>
