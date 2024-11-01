@@ -9,8 +9,8 @@ const clickableImage = (props) => {
 				className="img-fluid glow"
 				alt="Image with overlay"
 			/>
-			<div className="position-absolute top-50 start-50 translate-middle bg-blue p-1 rounded max-size-90 bg-tomato">
-				<h3>{title}</h3>
+			<div className="position-absolute top-50 start-50 translate-middle p-1 rounded max-size-90 bg-tomato">
+				<h3 className="text-yale-darker">{title}</h3>
 				<p>
 					{description}
 				</p>
