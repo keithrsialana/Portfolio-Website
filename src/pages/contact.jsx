@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { IoMdMail } from "react-icons/io";
 const contact = () => {
-	const [errorMessage, setErrorMessage] = useState("");
 	const [htmlError, setHTMLError] = useState("");
 	const [email, setEmail] = useState("");
 	const [name, setName] = useState("");
@@ -16,8 +15,7 @@ const contact = () => {
 	function handleEmailChange(e) {
 		if (!emailPattern.test(email))
 			setHTMLError("You have entered an invalid email");
-		else 
-			setHTMLError("");
+		else setHTMLError("");
 		setEmail(e.target.value);
 	}
 
@@ -27,16 +25,15 @@ const contact = () => {
 
 	function onMouseLeave(e) {
 		if (e.target.value == "")
-			alert("(Required) You need to fill in all the fields!");
+			setHTMLError("(Required) You need to fill in all the fields!");
 		return;
 	}
 
 	useEffect(() => {
-		if (errorMessage) {
-			alert(errorMessage);
-			setErrorMessage("");
+		if (htmlError) {
+			setHTMLError(htmlError);
 		}
-	}, [errorMessage]);
+	}, [htmlError]);
 
 	function checkInput(e) {
 		// prevent page from reloading
@@ -44,15 +41,12 @@ const contact = () => {
 
 		if (name == "" || message == "" || email == "") {
 			if (name == "") {
-				setErrorMessage("Your name is empty");
 				setHTMLError("Your name is empty");
 				return;
 			} else if (!emailPattern.test(email)) {
-				setErrorMessage("You have entered an invalid email address.");
 				setHTMLError("You have entered an invalid email address.");
 				return;
 			} else if (message == "") {
-				setErrorMessage("Your message is empty");
 				setHTMLError("Your message is empty");
 				return;
 			}
@@ -63,7 +57,6 @@ const contact = () => {
 
 		// reset form inputs
 		setHTMLError("");
-		setErrorMessage("");
 		setName("");
 		setMessage("");
 		setEmail("");
@@ -81,6 +74,11 @@ const contact = () => {
 				send me an email, you can use this form.
 			</p>
 			<form onSubmit={checkInput} className="mx-auto">
+				<div className="mb-3 row">
+					<div id="errorMessage" className="text-danger fw-bolder bg-yale-darker rounded">
+						{htmlError}
+					</div>
+				</div>
 				<div className="mb-3 row">
 					<label for="userName" className="col-sm-2 col-form-label">
 						<h3>Name</h3>
@@ -126,12 +124,8 @@ const contact = () => {
 							rows="5"
 							value={message}
 							onChange={handleMessageChange}
+							onMouseLeave={onMouseLeave}
 						/>
-					</div>
-				</div>
-				<div className="mb-3 row">
-					<div id="errorMessage" className="text-danger">
-						{htmlError}
 					</div>
 				</div>
 				<div className="row">
