@@ -8,14 +8,14 @@ function NavItem({ label, to }) {
   if ((location != '' && location == label.toLowerCase()) || (urlLocation == "/" && label == "About Me")){
     return (
       <li className='nav-item active'>
-        <Link to={to} className="nav-link">{label}</Link>
+        <Link to={to} className="nav-link text-antiflashWhite">{label}</Link>
       </li>
     );
   }
   else {
     return (
-      <li className='nav-item text-antiflashWhite'>
-        <Link to={to} className="nav-link">{label}</Link>
+      <li className='nav-item'>
+        <Link to={to} className="nav-link text-antiflashWhite">{label}</Link>
       </li>
     );
   }

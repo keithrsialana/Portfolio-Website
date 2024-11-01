@@ -115,6 +115,13 @@ button.bg-tomato:hover {
 .nav-link:hover {
 	color: var(--tomato);
 }
+.nav-item.active .nav-link:hover{
+	color: var(--yale);
+}
+.nav-item.active .nav-link:focus{
+	color: var(--antiflashWhite);
+}
+
 
 p.bg-antiflashWhite {
 	color: black;
