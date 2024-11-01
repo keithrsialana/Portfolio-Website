@@ -4,31 +4,31 @@ import myLocalPdf from "../../src/assets/Dev_CV_Keith_Sialana.pdf";
 const resume = () => {
 	return (
 		<div className="resume">
-			<h1 className="text-center display-2">Keith Ronald Sialana</h1>
+			<h1 className="text-center display-2 text-mustard">Keith Ronald Sialana</h1>
 			<div className="text-center">
-				<h5 className="label">Location: </h5>
+				<h5 className="label text-mustard">Location: </h5>
 				<h5>Guelph, ON, Canada</h5>
 			</div>
 			<div className="text-center">
-				<h5 className="label">Email: </h5>
+				<h5 className="label text-mustard">Email: </h5>
 				<a href="mailto:keith.sialana@hotmail.com">
 					<h5>keith.sialana@hotmail.com</h5>
 				</a>
 			</div>
 			<div className="text-center">
-				<h5 className="label">LinkedIn: </h5>
+				<h5 className="label text-mustard">LinkedIn: </h5>
 				<a href="https://www.linkedin.com/in/keithrsialana/">
 					<h5>https://www.linkedin.com/in/keithrsialana/</h5>
 				</a>
 			</div>
 			<div className="text-center">
-				<h5 className="label">GitHub: </h5>
+				<h5 className="label text-mustard">GitHub: </h5>
 				<a href="https://github.com/keithrsialana">
 					<h5>https://github.com/keithrsialana/</h5>
 				</a>
 			</div>
-			<div className="container">
-				<h2 className="text-center bg-primary display-6">
+			<div className="container mt-3">
+				<h2 className="text-center bg-tomato display-6 pb-2">
 					Professional Summary
 				</h2>
 				<p>
@@ -38,9 +38,9 @@ const resume = () => {
 					LINQ. Additional experience with Docker environments and modern
 					deployment practices.
 				</p>
-				<h2 className="text-center bg-primary display-6">Experience</h2>
-				<h4 className="label">Linmar Corporation; Guelph, ON, Canada</h4>
-				<h4 className="label">Application Developer | Co-op</h4>
+				<h2 className="text-center bg-tomato display-6 pb-2">Experience</h2>
+				<h4 className="label text-mustard">Linmar Corporation; Guelph, ON, Canada</h4>
+				<h4 className="label text-mustard">Application Developer | Co-op</h4>
 				<h5>May 2021 - August 2021</h5>
 				<p>
 					• Identified and amended language conversion bugs in various UIs of
@@ -53,8 +53,8 @@ const resume = () => {
 					<br />• Revamped UI design using Docker, and VS Code to enhance user
 					experience and improve overall visual aesthetics
 				</p>
-				<h4 className="label">Linmar Corporation; Guelph, ON, Canada</h4>
-				<h4 className="label">Desktop Support Technician | Co-op</h4>
+				<h4 className="label text-mustard">Linmar Corporation; Guelph, ON, Canada</h4>
+				<h4 className="label text-mustard">Desktop Support Technician | Co-op</h4>
 				<h5> September 2020 - April 2021</h5>
 				<p>
 					• Assisted users via Linamar's Support Ticketing System, ensuring
@@ -67,9 +67,9 @@ const resume = () => {
 					optimize and automate routine tasks, significantly enhancing overall
 					productivity and process efficiency
 				</p>
-				<h2 className="text-center bg-primary display-6">Education</h2>
-				<h4 className="label">University of Toronto</h4>
-				<h4 className="label">
+				<h2 className="text-center bg-tomato display-6 pb-2">Education</h2>
+				<h4 className="label text-mustard">University of Toronto</h4>
+				<h4 className="label text-mustard">
 					Full-Stack Development Bootcamp | EdX Bootcamp Certificate
 				</h4>
 				<h5>September 2024 – December 2024</h5>
@@ -81,8 +81,8 @@ const resume = () => {
 					<br />• Polished application and understanding of languages; HTML,
 					CSS, Javascript, Typescript, Python, and SQL
 				</p>
-				<h4 className="label">Conestoga College</h4>
-				<h4 className="label">
+				<h4 className="label text-mustard">Conestoga College</h4>
+				<h4 className="label text-mustard">
 					Computer Programmer/Analyst | Advanced Diploma; 3.7 GPA
 				</h4>
 				<h5>September 2019 – April 2022</h5>
@@ -99,22 +99,22 @@ const resume = () => {
 					<br />• Gained foundational knowledge in cloud-based databases and
 					game development with C# and MonoGame.
 				</p>
-				<h2 className="text-center bg-primary display-6">
+				<h2 className="text-center bg-tomato display-6 pb-2">
 					Technical Proficiencies & Interests
 				</h2>
-				<h4 className="label">Technologies</h4>
+				<h4 className="label text-mustard">Technologies</h4>
 				<p>
 					Docker; REST APIs; Azure DevOps; MySQL; ASP.NET Core; Entity
 					Framework; React.js, PowerShell; PostgreSQL
 				</p>
-				<h4 className="label">Programming Languages</h4>
+				<h4 className="label text-mustard">Programming Languages</h4>
 				<p>C#; Java; HTML5; CSS; Python; JavaScript; Typescript; PHP; SQL</p>
-				<h4 className="label">Interests</h4>
+				<h4 className="label text-mustard">Interests</h4>
 				<p>
 					Astronomy; StarTalk Podcast; Listening to ‘Chill’ Music; Video Games;
 					Playing Basketball
 				</p>
-				<div className="mb-3 row text-center">
+				<div className="row text-center">
 					<div className="col-sm-12">
 						<a href={myLocalPdf} download>
 							<button type="button" class="btn btn-success mb-3">

@@ -1,0 +1,5 @@
+// Override Bootstrap primary color
+$primary: #1B4079; // Replace with your custom color
+
+// Import Bootstrap with new color overrides
+@import "bootstrap/scss/bootstrap";

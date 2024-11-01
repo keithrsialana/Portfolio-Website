@@ -19,6 +19,11 @@ This is my official portfolio website! Here, I'm showcasing my ability to create
 3. On your web browser, navigate to `http://localhost:4173` to access the website
 ### Accessing the deployed website
 Go to [https://keithsialana.netlify.app/](https://keithsialana.netlify.app/) to access the deployed website
+## Screenshots
+### Home Page
+![Home-Page](./public/ss1.png)
+### Portfolio Page
+![Portfolio-Page](./public/ss2.png)
 ## Credits
 Keith Sialana
 ## License

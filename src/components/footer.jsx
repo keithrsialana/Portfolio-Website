@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 function Footer() {
 	return (
-		<footer className="text-center p-5">
+		<footer className="text-center p-5 bg-yale-darker">
 			<p>Made with sweaty palms 🥲 2024</p>
 			<p>
 				<a href="https://github.com/keithrsialana">

@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 
 function Header() {
 	return (
-		<nav className="navbar navbar-expand-lg bg-body-tertiary">
-			<div className="container-fluid">
-				
+		<nav className="navbar navbar-expand-lg bg-yale">
+			<div className="container-fluid">				
 				<Link to={"/"} className="navbar-brand">
 					Keith Sialana's <strong>[Portfolio]</strong>
 				</Link>

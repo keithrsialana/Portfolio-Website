@@ -74,8 +74,8 @@ const contact = () => {
 
 	return (
 		<div className="text-center ">
-			<IoMdMail style={{ color: "#054BE0", fontSize: "5em" }} />
-			<h1 className="display-2">Contact Me</h1>
+			<IoMdMail style={{ color: "#F06449", fontSize: "5em" }} />
+			<h1 className="display-2 text-mustard">Contact Me</h1>
 			<p>
 				My preferred method of contact is through email. If you would like to
 				send me an email, you can use this form.
@@ -83,7 +83,7 @@ const contact = () => {
 			<form onSubmit={checkInput} className="mx-auto">
 				<div className="mb-3 row">
 					<label for="userName" className="col-sm-2 col-form-label">
-						<h3 className="">Name</h3>
+						<h3>Name</h3>
 					</label>
 					<div className="col-sm-10">
 						<input
@@ -99,7 +99,7 @@ const contact = () => {
 				</div>
 				<div className="mb-3 row">
 					<label for="staticEmail" className="col-sm-2 col-form-label">
-						<h3 className="">Email</h3>
+						<h3>Email</h3>
 					</label>
 					<div className="col-sm-10">
 						<input
@@ -115,7 +115,7 @@ const contact = () => {
 				</div>
 				<div className="mb-3 row">
 					<label for="userMessage" className="col-sm-2 col-form-label">
-						<h3 className="">Message</h3>
+						<h3>Message</h3>
 					</label>
 					<div className="col-sm-10">
 						<textarea
@@ -134,9 +134,9 @@ const contact = () => {
 						{htmlError}
 					</div>
 				</div>
-				<div className="mb-3 row">
+				<div className=" row">
 					<div className="col-sm-12">
-						<button type="submit" class="btn btn-primary mb-3 col-sm-6">
+						<button type="submit" class="btn bg-tomato mb-3 col-sm-6">
 							Send Email
 						</button>
 					</div>

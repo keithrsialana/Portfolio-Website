@@ -14,7 +14,7 @@ function NavItem({ label, to }) {
   }
   else {
     return (
-      <li className='nav-item'>
+      <li className='nav-item text-antiflashWhite'>
         <Link to={to} className="nav-link">{label}</Link>
       </li>
     );

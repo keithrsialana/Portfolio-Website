@@ -4,8 +4,8 @@ const articleSection = (props) => {
 	const { title, content } = props;
 	return (
 		<>
-			<h1 className="bg-primary display-5">{title}</h1>
-			<p>
+			<h1 className="display-5 bg-tomato">{title}</h1>
+			<p className="bg-antiflashWhite">
 				{content}
 			</p>
 		</>

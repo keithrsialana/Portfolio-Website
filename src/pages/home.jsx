@@ -26,13 +26,13 @@ function Home() {
 	];
 	return (
 		<div className="container-fluid">
-			<h1 className="text-center display-2">About Keith Sialana</h1>
+			<h1 className="text-center display-2 text-mustard">About Keith Sialana</h1>
 			<div className="row text-center">
 				<div className="col-md-6">
 					<div className="text-center">
 						<img
-							className="img-fluid meLOLimage glow"
-							src="https://i.imgur.com/0UqyRgw.jpeg"
+							className="img-fluid glow profilePic mb-3"
+							src="https://i.imgur.com/goj6BNh.jpeg"
 							alt="Keith Sialana"
 						/>
 					</div>

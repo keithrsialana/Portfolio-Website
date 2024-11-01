@@ -5,10 +5,10 @@ const projectElement = (props) => {
 	return (
 		<div className="card h-100">
 			<img src={imgUrl} className="card-img-top fixed-img" alt={`${title} - Project Image`} />
-			<div className="card-body">
-				<h5 className="card-title">{title}</h5>
+			<div className="card-body bg-antiflashWhite">
+				<h5 className="card-title text-yale-darker">{title}</h5>
                 <p className="text-danger">[{tech}]</p>
-				<p className="card-text">{description}</p>
+				<p className="card-text text-yale-darker">{description}</p>
 				<div className="container-fluid">
 					<div className="row text-center">
 						<div className="col-md-6 mb-2">
