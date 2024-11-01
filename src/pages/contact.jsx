@@ -134,7 +134,7 @@ const contact = () => {
 						{htmlError}
 					</div>
 				</div>
-				<div className=" row">
+				<div className="row">
 					<div className="col-sm-12">
 						<button type="submit" class="btn bg-tomato mb-3 col-sm-6">
 							Send Email

@@ -4,7 +4,7 @@ import NavItem from "./navItem";
 
 function Navbar() {
 	return (
-		<div className="collapse navbar-collapse bg-yale-darker" id="navbarNav">
+		<div className="collapse navbar-collapse bg-yale-darker rounded" id="navbarNav">
 			<ul className="navbar-nav">
 				<NavItem label="About Me" to="/"/>				
 				<NavItem label="Portfolio" to="/portfolio"/>				

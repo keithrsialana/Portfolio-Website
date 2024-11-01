@@ -1,10 +1,10 @@
 :root {
-	--yale: #1B4079;
+	--yale: #1b4079;
 	--yale-darker: #0d2a57;
-	--tomato: #F06449;
-	--mustard: #FED766;
-	--moonstone: #009FB7;
-	--antiflashWhite: #EFF1F3;
+	--tomato: #f06449;
+	--mustard: #fed766;
+	--moonstone: #009fb7;
+	--antiflashWhite: #eff1f3;
 }
 /* BS overrides --------------------------------------------------------*/
 .display-5 {
@@ -12,7 +12,7 @@
 	padding-bottom: 5px;
 	margin-bottom: 0;
 }
-.display-2{
+.display-2 {
 	color: var(--antiflashWhite);
 }
 .fixed-img {
@@ -24,7 +24,7 @@
 	margin-bottom: 10px;
 }
 .max-size-90 {
-    max-height: 90%;
+	max-height: 90%;
 	max-width: 90%;
 }
 form {
@@ -35,7 +35,9 @@ form {
 footer {
 	color: var(--bs-white);
 }
-.navbar-brand, .navbar-brand:hover, .navbar-brand:focus{
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus {
 	color: var(--antiflashWhite);
 }
 .navbar-toggler {
@@ -43,7 +45,7 @@ footer {
 }
 .navbar-toggler:focus {
 	outline: 0; /* Remove the default outline */
-    box-shadow: 0 0 0 0.2rem var(--moonstone); /* Blue shadow effect */
+	box-shadow: 0 0 0 0.2rem var(--moonstone); /* Blue shadow effect */
 }
 .nav-item {
 	border-radius: 4px;
@@ -53,7 +55,7 @@ footer {
 	color: white;
 }
 .nav-item.active {
-	background-color: #F06449;
+	background-color: #f06449;
 	color: var(--mustard) !important;
 }
 
@@ -78,7 +80,8 @@ footer {
 }
 .bg-mustard {
 	background-color: var(--mustard);
-}.bg-moonstone {
+}
+.bg-moonstone {
 	background-color: var(--moonstone);
 }
 .bg-antiflashWhite {
@@ -104,17 +107,30 @@ footer {
 	color: var(--antiflashWhite);
 }
 
-p.bg-antiflashWhite {
-
-	color:black;
+button.bg-tomato:hover {
+	color: var(--antiflashWhite);
+	background-color: #ce4b31;
 }
 
-p,h1,h2,h3,h4,h5 {
+.nav-link:hover {
+	color: var(--tomato);
+}
+
+p.bg-antiflashWhite {
+	color: black;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
 	color: var(--antiflashWhite);
 }
 
 .profilePic {
-	width:80%;
+	width: 80%;
 }
 
 .portfolio-bg {
