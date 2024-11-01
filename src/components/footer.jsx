@@ -3,7 +3,7 @@ import { IoMdMail } from "react-icons/io";
 function Footer() {
 	return (
 		<footer className="text-center p-5 bg-yale-darker">
-			<p>Made with sweaty palms 🥲 2024</p>
+			<p>Keith Sialana - 2024</p>
 			<p>
 				<a href="https://github.com/keithrsialana">
 					<FaGithub style={{ color: "white", fontSize: "1.5em" }} />
