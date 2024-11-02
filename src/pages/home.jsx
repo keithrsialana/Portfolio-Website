@@ -32,7 +32,7 @@ function Home() {
 					<div className="text-center">
 						<img
 							className="img-fluid glow profilePic mb-3"
-							src="https://i.imgur.com/goj6BNh.jpeg"
+							src="/pfp.png"
 							alt="Keith Sialana"
 						/>
 					</div>
