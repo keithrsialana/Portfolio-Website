@@ -1,32 +1,17 @@
 import React from "react";
 import myLocalPdf from "../../src/assets/Dev_CV_Keith_Sialana.pdf";
+import ResumeContactItem from "../components/res_contact_item";
+import ResumeItem from "../components/resumeItem";
 
 const resume = () => {
 	return (
 		<div className="resume">
 			<h1 className="text-center display-2 text-mustard">Keith Ronald Sialana</h1>
-			<div className="text-center">
-				<h5 className="label text-mustard">Location: </h5>
-				<h5>Guelph, ON, Canada</h5>
-			</div>
-			<div className="text-center">
-				<h5 className="label text-mustard">Email: </h5>
-				<a href="mailto:keith.sialana@hotmail.com">
-					<h5>keith.sialana@hotmail.com</h5>
-				</a>
-			</div>
-			<div className="text-center">
-				<h5 className="label text-mustard">LinkedIn: </h5>
-				<a href="https://www.linkedin.com/in/keithrsialana/">
-					<h5>https://www.linkedin.com/in/keithrsialana/</h5>
-				</a>
-			</div>
-			<div className="text-center">
-				<h5 className="label text-mustard">GitHub: </h5>
-				<a href="https://github.com/keithrsialana">
-					<h5>https://github.com/keithrsialana/</h5>
-				</a>
-			</div>
+			<ResumeContactItem label="Location" content="Guelph, ON, Canada"/>
+			<ResumeContactItem label="Email" content="keith.sialana@hotmail.com" _link="mailto:keith.sialana@hotmail.com"/>
+			<ResumeContactItem label="Phone Number" content="+1 (519) 731-5141"/>
+			<ResumeContactItem label="LinkedIn" content="https://www.linkedin.com/in/keithrsialana/" _link="https://www.linkedin.com/in/keithrsialana/"/>
+			<ResumeContactItem label="GitHub" content="https://github.com/keithrsialana/" _link="https://github.com/keithrsialana/"/>
 			<div className="container mt-3">
 				<h2 className="text-center bg-tomato display-6 pb-2">
 					Professional Summary
@@ -111,8 +96,7 @@ const resume = () => {
 				<p>C#; Java; HTML5; CSS; Python; JavaScript; Typescript; PHP; SQL</p>
 				<h4 className="label text-mustard">Interests</h4>
 				<p>
-					Astronomy; StarTalk Podcast; Listening to ‘Chill’ Music; Video Games;
-					Playing Basketball
+					Astronomy; StarTalk Podcast; Listening to ‘Chill’ music; Video Games; Digital Art; Playing Basketball
 				</p>
 				<div className="row text-center">
 					<div className="col-sm-12">
