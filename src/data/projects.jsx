@@ -30,26 +30,6 @@ export const projects = [
         deployedUrl: "",
     },
     {
-        title: "TalentMap",
-        tech: "Typescript, PostgreSQL",
-        description:
-            "A simple application that lets Keith apply database manipulation through a Node.js console environment",
-        imgUrl:
-            "https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg",
-        gitHubUrl: "https://github.com/keithrsialana/TalentMap",
-        deployedUrl: "",
-    },
-    {
-        title: "AstroCloud",
-        tech: "Typescript",
-        description:
-            "A small application that Keith created to exercise RESTful API request and response prompts",
-        imgUrl:
-            "https://cdn.pixabay.com/photo/2024/08/17/10/25/ai-generated-8975559_960_720.jpg",
-        gitHubUrl: "https://github.com/keithrsialana/AstroCloud",
-        deployedUrl: "",
-    },
-    {
         title: "AutoRunApp",
         tech: "C#",
         description:
