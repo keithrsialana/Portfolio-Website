@@ -8,7 +8,7 @@ function Navbar() {
 			<ul className="navbar-nav">
 				<NavItem label="About Me" to="/"/>				
 				<NavItem label="Portfolio" to="/portfolio"/>				
-				<NavItem label="Contact" to="/contact"/>				
+				<NavItem label="Contact Me (WIP)" to="/contact"/>				
 				<NavItem label="Resume" to="/resume"/>				
 			</ul>
 		</div>

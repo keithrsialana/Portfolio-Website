@@ -68,7 +68,7 @@ const contact = () => {
 	return (
 		<div className="text-center ">
 			<IoMdMail style={{ color: "#F06449", fontSize: "5em" }} />
-			<h1 className="display-2 text-mustard">Contact Me</h1>
+			<h1 className="display-2 text-mustard">Contact Me (WIP)</h1>
 			<p>
 				My preferred method of contact is through email. If you would like to
 				send me an email, you can use this form.
@@ -92,6 +92,7 @@ const contact = () => {
 							value={name}
 							onChange={handleNameChange}
 							onMouseLeave={onMouseLeave}
+							disabled
 						/>
 					</div>
 				</div>
@@ -108,6 +109,7 @@ const contact = () => {
 							value={email}
 							onChange={handleEmailChange}
 							onMouseLeave={onMouseLeave}
+							disabled
 						/>
 					</div>
 				</div>
@@ -125,12 +127,13 @@ const contact = () => {
 							value={message}
 							onChange={handleMessageChange}
 							onMouseLeave={onMouseLeave}
+							disabled
 						/>
 					</div>
 				</div>
 				<div className="row">
 					<div className="col-sm-12">
-						<button type="submit" class="btn bg-tomato mb-3 col-sm-6">
+						<button type="submit" class="btn bg-tomato mb-3 col-sm-6" disabled>
 							Send Email
 						</button>
 					</div>
