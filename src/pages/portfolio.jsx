@@ -6,7 +6,7 @@ const portfolio = () => {
 	
 	return (
 		<div className="container-fluid">
-			<h1 className="text-center display-2 text-mustard">
+			<h1 className="text-center display-2 text-mustard mb-4">
 				Here are some projects I've done!
 			</h1>
 			<div className="card-group">

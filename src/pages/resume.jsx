@@ -24,14 +24,14 @@ const resume = () => {
 				Proficient Full-Stack Developer with expertise in ReactJS, Javascript/Typescript, Python, SQL and C#. Adept at designing and implementing responsive applications with strong back-end integration using modern deployment practices.
 				</p>
 				<h2 className="text-center bg-mustard display-6 pb-2 pt-2 text-black">
-				<FaReact style={{ color: "black", fontSize: "1.5em" }} />
-				<DiJavascript style={{ color: "black", fontSize: "1.5em" }} />
-				<SiTypescript style={{ color: "black", fontSize: "1.5em" }} />
-				<FaCss3Alt style={{ color: "black", fontSize: "1.5em" }} />
-				<DiPostgresql style={{ color: "black", fontSize: "1.5em" }} />
-				<SiMongodb style={{ color: "black", fontSize: "1.5em" }} />
-				<TbSql style={{ color: "black", fontSize: "1.5em" }} />
-				<TbBrandCSharp style={{ color: "black", fontSize: "1.5em" }} />
+				<FaReact className="enlarge-anim" style={{ fontSize: "1.5em" }} />
+				<DiJavascript className="enlarge-anim" style={{ fontSize: "1.5em" }} />
+				<SiTypescript className="enlarge-anim" style={{ fontSize: "1.5em" }} />
+				<FaCss3Alt className="enlarge-anim" style={{ fontSize: "1.5em" }} />
+				<DiPostgresql className="enlarge-anim" style={{ fontSize: "1.5em" }} />
+				<SiMongodb className="enlarge-anim" style={{ fontSize: "1.5em" }} />
+				<TbSql className="enlarge-anim" style={{ fontSize: "1.5em" }} />
+				<TbBrandCSharp className="enlarge-anim" style={{ fontSize: "1.5em" }} />
 				</h2>
 				<h2 className="text-center bg-tomato display-6 pb-2">Education</h2>
 				<h4 className="label text-mustard">University of Toronto</h4>

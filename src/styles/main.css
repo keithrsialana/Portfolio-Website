@@ -69,6 +69,21 @@ footer {
 }
 
 /* My custom Styles --------------------------------------------------------*/
+.hover-anim {
+	transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1);
+	transition: transform 0.3s ease-in-out;
+}
+.hover-anim:hover {
+	transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1) translateY(10px);
+}
+.enlarge-anim {
+	transition: transform 0.3s ease-in-out;
+}
+.enlarge-anim:hover {
+	color: white;
+	background-color: transparent;
+	transform: scale(2);
+}
 .bg-yale {
 	background-color: var(--yale);
 }
@@ -115,13 +130,12 @@ button.bg-tomato:hover {
 .nav-link:hover {
 	color: var(--tomato);
 }
-.nav-item.active .nav-link:hover{
+.nav-item.active .nav-link:hover {
 	color: var(--yale);
 }
-.nav-item.active .nav-link:focus{
+.nav-item.active .nav-link:focus {
 	color: var(--antiflashWhite);
 }
-
 
 p.bg-antiflashWhite {
 	color: black;

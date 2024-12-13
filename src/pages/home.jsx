@@ -21,7 +21,7 @@ function Home() {
 		{
 			title: "Current",
 			content:
-				"As of September 2024, Keith has signed up and is enrolled in EdX's Full-Stack Development Bootcamp through the University of Toronto, learning everything involved in modern Front-End Development technologies.",
+				"Finally graduating the EdX Full-Stack Development bootcamp, Keith is now working on expanding and sharpening his portfolio and resume, and is looking for jobs in the tech industry. If you're interested in giving him a chance through an interview, please don't hesitate to reach out!",
 		},
 	];
 	return (
