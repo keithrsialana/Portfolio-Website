@@ -70,14 +70,14 @@ const resume = () => {
 					<br />• Developed Windows Desktop applications with C# and SQL local databases.
 					<br />• Gained foundational knowledge in cloud-based databases and game development with C# and MonoGame.
 				</p>
-				<h2 className="text-center bg-tomato display-6 pb-2">
+				{/* <h2 className="text-center bg-tomato display-6 pb-2">
 					References
 				</h2>
 				<h4 className="label text-mustard"><a href="https://www.linkedin.com/in/jazztazz/" style={{color:'#FED766'}}>Cody Chase</a></h4>
-				<p>(WIP)</p>
+				<p>EdX Teacher Assistant | Orlanda, Florida | <a href="mailto:cchase1991@gmail.com">cchase1991@gmail.com</a> | 407-414-9770</p>
 				<h4 className="label text-mustard"><a href="https://www.linkedin.com/in/404pandas/" style={{color:'#FED766'}}>Mary Elenius</a></h4>
 				<p>EdX Teacher Assistant | Knoxville, Tennessee | <a href="mailto:mary.panda.jackson@gmail.com">mary.panda.jackson@gmail.com</a> | 772-834-2342</p>
-				<h2 className="text-center bg-tomato display-6 pb-2">
+				 */}<h2 className="text-center bg-tomato display-6 pb-2">
 					Other Proficiencies & Interests
 				</h2>
 				<h4 className="label text-mustard">Technologies</h4>
