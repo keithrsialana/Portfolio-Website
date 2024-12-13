@@ -1,14 +1,14 @@
 export const projects = [
     {
-        title: "Moody",
-        tech: "Typescript, SCSS, React, PostgreSQL",
+        title: "JIMK Connect 4",
+        tech: "Typescript, React, MongoDB, Socket.IO",
         description:
-            "This group project aims to use OpenAI API and Spotify API to collaborate with the user to generate a playlist based on the user's mood. The application will prompt the user to enter their mood, and will 'talk' to the OpenAI API to generate a list of 15 songs based on the user's mood. The deployed webpage will take a while to load, you might need to refresh the page a few times.",
+            "For the final project of the EdX Bootcamp, our group unanimously decided to create a web application game based on Hasbro's Connect 4 that utilizes Socket.IO for real-time gameplay against other players. The deployed webpage will take a while to load, you might need to refresh the page a few times.",
         imgUrl:
-            "https://cdn.pixabay.com/photo/2017/02/10/17/10/heart-2055695_960_720.png",
-        gitHubUrl: "https://github.com/keithrsialana/Moody",
-        deployedUrl: "https://moody-so0y.onrender.com",
-    },
+            "https://images.unsplash.com/photo-1615650574132-10488b88f4f0?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        gitHubUrl: "https://github.com/keithrsialana/jimk-connect4",
+        deployedUrl: "https://jimk-connect4.onrender.com/",
+    },    
     {
         title: "HMRDiscordBot",
         tech: "Javascript",
@@ -20,8 +20,18 @@ export const projects = [
         deployedUrl: "",
     },
     {
+        title: "Moody",
+        tech: "Typescript, SCSS, React, PostgreSQL",
+        description:
+            "This group project aims to use OpenAI API and Spotify API to collaborate with the user to generate a playlist based on the user's mood. The application will prompt the user to enter their mood, and will 'talk' to the OpenAI API to generate a list of 15 songs based on the user's mood. The deployed webpage will take a while to load, you might need to refresh the page a few times.",
+        imgUrl:
+            "https://cdn.pixabay.com/photo/2017/02/10/17/10/heart-2055695_960_720.png",
+        gitHubUrl: "https://github.com/keithrsialana/Moody",
+        deployedUrl: "https://moody-so0y.onrender.com",
+    },
+    {
         title: "Hone Your Hollywood",
-        tech: "HTML, CSS, JavaScript",
+        tech: "HTML, CSS, Javascript",
         description:
             "This group project lets the user add their own list of movies that they would like to watch or re-watch, and have the app randomly pick between the movies in the list.",
         imgUrl:
