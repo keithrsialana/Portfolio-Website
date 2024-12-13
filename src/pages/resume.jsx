@@ -1,10 +1,9 @@
 import React from "react";
 import myLocalPdf from "../../src/assets/CV_Keith_Sialana.pdf";
 import ResumeContactItem from "../components/res_contact_item";
-import ResumeItem from "../components/resumeItem";
 import { FaReact } from "react-icons/fa6";
 import { DiJavascript, DiPostgresql } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiMongodb } from "react-icons/si";
 import { TbBrandCSharp, TbSql } from "react-icons/tb";
 import { FaCss3Alt } from "react-icons/fa";
 
@@ -24,30 +23,16 @@ const resume = () => {
 				<p>
 				Proficient Full-Stack Developer with expertise in ReactJS, Javascript/Typescript, Python, SQL and C#. Adept at designing and implementing responsive applications with strong back-end integration using modern deployment practices.
 				</p>
-				<h2 className="text-center bg-mustard display-6 pb-2 pt-2 text-black"> 
+				<h2 className="text-center bg-mustard display-6 pb-2 pt-2 text-black">
 				<FaReact style={{ color: "black", fontSize: "1.5em" }} />
 				<DiJavascript style={{ color: "black", fontSize: "1.5em" }} />
 				<SiTypescript style={{ color: "black", fontSize: "1.5em" }} />
 				<FaCss3Alt style={{ color: "black", fontSize: "1.5em" }} />
 				<DiPostgresql style={{ color: "black", fontSize: "1.5em" }} />
+				<SiMongodb style={{ color: "black", fontSize: "1.5em" }} />
 				<TbSql style={{ color: "black", fontSize: "1.5em" }} />
 				<TbBrandCSharp style={{ color: "black", fontSize: "1.5em" }} />
 				</h2>
-				<h2 className="text-center bg-tomato display-6 pb-2">Experience</h2>
-				<h4 className="label text-mustard">Linmar Corporation; Guelph, ON, Canada</h4>
-				<h4 className="label text-mustard">Application Developer | Co-op</h4>
-				<h5>May 2021 - August 2021</h5>
-				<p>
-					•  Identified and amended language conversion bugs in various UIs of internally-utilized applications during CI/CD cycles using error logs and developer tools
-					<br />•  Implemented new functionalities to front ends of critical internally-utilized applications, resulting in seamless integration during CI/CD cycles
-					<br />•  Enhanced UI aesthetics with new CSS through Docker and VS Code, boosting user satisfaction by 20%
-				</p>
-				<h4 className="label text-mustard">Linmar Corporation; Guelph, ON, Canada</h4>
-				<h4 className="label text-mustard">Desktop Support Technician | Co-op</h4>
-				<h5> September 2020 - April 2021</h5>
-				<p>
-					• Assisted users via Linamar's Support Ticketing System, ensuring 95% of technical issues with desktops/mobile devices were addressed promptly and adequately with applicable solutions
-				</p>
 				<h2 className="text-center bg-tomato display-6 pb-2">Education</h2>
 				<h4 className="label text-mustard">University of Toronto</h4>
 				<h4 className="label text-mustard">
@@ -55,9 +40,13 @@ const resume = () => {
 				</h4>
 				<h5>September 2024 – December 2024</h5>
 				<p>
-					• Applied modern frameworks like React.js and Node.js to build responsive, scalable applications.
-					<br />• Gained expertise in modern frameworks and tools, including PostgreSQL, React.js, Node.js, and RESTful APIs.
-					<br />• Created a full-stack e-commerce platforms with PostgreSQL and React.js, featuring dynamic inventory management and secure user authentication
+					<ul>
+						<li>Applied modern frameworks like React.js and Node.js to build responsive, scalable applications</li>
+						<li>Gained expertise in modern frameworks and tools, including PostgreSQL, React.js, Node.js, and RESTful APIs</li>
+						<li>Created a full-stack e-commerce platforms with PostgreSQL and React.js, featuring dynamic inventory management and secure JWT user authentication</li>
+						<li>Created dynamic single-page applications using the MERN stack</li>
+						<li>Demonstrate strong teamwork and project management skills as a collaborator and independent contributor during the development cycle of complex projects</li>
+					</ul>
 				</p>
 				<h4 className="label text-mustard">Conestoga College</h4>
 				<h4 className="label text-mustard">
@@ -65,19 +54,36 @@ const resume = () => {
 				</h4>
 				<h5>September 2019 – April 2022</h5>
 				<p className="ml-md-4">
-					• Led a team in planning, documenting, and developing multi-featured web applications, managing the project life cycle from start to finish.
-					<br />• Built responsive and accessible Web/Desktop applications, prioritizing UI/UX design and accessibility.
-					<br />• Developed Windows Desktop applications with C# and SQL local databases.
-					<br />• Gained foundational knowledge in cloud-based databases and game development with C# and MonoGame.
+					<ul>
+						<li>Led a team in planning, documenting, and developing multi-featured web applications, managing the project life cycle from start to finish</li>
+						<li>Built responsive and accessible Web/Desktop applications, prioritizing UI/UX design and accessibility</li>
+						<li>Built e-commerce web applications using ASP.NET Core and ASP.NET MVC Frameworks</li>
+						<li>Developed small Windows desktop applications with C# based frameworks and local SQL databases, designing the project forms UI and functionality on Visual Studio Community 2019</li>
+						<li>Gained foundational knowledge in cloud-based databases and game development with C# and MonoGame</li>
+					</ul>
 				</p>
-				{/* <h2 className="text-center bg-tomato display-6 pb-2">
-					References
-				</h2>
-				<h4 className="label text-mustard"><a href="https://www.linkedin.com/in/jazztazz/" style={{color:'#FED766'}}>Cody Chase</a></h4>
-				<p>EdX Teacher Assistant | Orlanda, Florida | <a href="mailto:cchase1991@gmail.com">cchase1991@gmail.com</a> | 407-414-9770</p>
-				<h4 className="label text-mustard"><a href="https://www.linkedin.com/in/404pandas/" style={{color:'#FED766'}}>Mary Elenius</a></h4>
-				<p>EdX Teacher Assistant | Knoxville, Tennessee | <a href="mailto:mary.panda.jackson@gmail.com">mary.panda.jackson@gmail.com</a> | 772-834-2342</p>
-				 */}<h2 className="text-center bg-tomato display-6 pb-2">
+				<h2 className="text-center bg-tomato display-6 pb-2">Experience</h2>
+				<h4 className="label text-mustard">Linmar Corporation; Guelph, ON, Canada</h4>
+				<h4 className="label text-mustard">Application Developer | Co-op</h4>
+				<h5>May 2021 - August 2021</h5>
+				<p>
+					<ul>
+						<li>Identified and amended language conversion bugs in various UIs of internally-utilized applications during CI/CD cycles using error logs and developer tools</li>
+						<li>Implemented new functionalities to front ends of critical internally-utilized applications, resulting in seamless integration during CI/CD cycles</li>
+						<li>Enhanced UI aesthetics with new CSS through Docker and VS Code, boosting user satisfaction by 20%</li>
+					</ul>
+					
+				</p>
+				<h4 className="label text-mustard">Linmar Corporation; Guelph, ON, Canada</h4>
+				<h4 className="label text-mustard">Desktop Support Technician | Co-op</h4>
+				<h5> September 2020 - April 2021</h5>
+				<p>
+					<ul>
+						<li>Assisted users via Linamar's Support Ticketing System, ensuring 95% of technical issues with desktops/mobile devices were addressed promptly and adequately with applicable solutions</li>
+					</ul>
+					
+				</p>
+				<h2 className="text-center bg-tomato display-6 pb-2">
 					Other Proficiencies & Interests
 				</h2>
 				<h4 className="label text-mustard">Technologies</h4>
