@@ -71,12 +71,6 @@ const resume = () => {
 				<h4 className="label text-mustard">Linmar Corporation; Guelph, ON, Canada</h4>
 				<h4 className="label text-mustard">Desktop Support Technician | Co-op</h4>
 				<h5> September 2020 - April 2021</h5>
-				<p>
-					<ul>
-						<li>Assisted users via Linamar's Support Ticketing System, ensuring 95% of technical issues with desktops/mobile devices were addressed promptly and adequately with applicable solutions</li>
-					</ul>
-					
-				</p>
 				<h2 className="text-center bg-tomato display-6 pb-2">
 					Other Proficiencies & Interests
 				</h2>
