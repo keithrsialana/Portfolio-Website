@@ -41,11 +41,9 @@ const resume = () => {
 				<h5>September 2024 – December 2024</h5>
 				<p>
 					<ul>
-						<li>Applied modern frameworks like React.js and Node.js to build responsive, scalable applications</li>
-						<li>Gained expertise in modern frameworks and tools, including PostgreSQL, React.js, Node.js, and RESTful APIs</li>
-						<li>Created a full-stack e-commerce platforms with PostgreSQL and React.js, featuring dynamic inventory management and secure JWT user authentication</li>
-						<li>Created dynamic single-page applications using the MERN stack</li>
-						<li>Demonstrate strong teamwork and project management skills as a collaborator and independent contributor during the development cycle of complex projects</li>
+						<li>Built scalable single-page and full-stack applications using MERN stack and PostgreSQL.</li>
+						<li>Created e-commerce platforms with inventory management and JWT authentication.</li>
+						<li>Collaborated in agile teams to deliver responsive, accessible, and secure applications.</li>
 					</ul>
 				</p>
 				<h4 className="label text-mustard">Conestoga College</h4>
@@ -55,11 +53,9 @@ const resume = () => {
 				<h5>September 2019 – April 2022</h5>
 				<p className="ml-md-4">
 					<ul>
-						<li>Led a team in planning, documenting, and developing multi-featured web applications, managing the project life cycle from start to finish</li>
-						<li>Built responsive and accessible Web/Desktop applications, prioritizing UI/UX design and accessibility</li>
-						<li>Built e-commerce web applications using ASP.NET Core and ASP.NET MVC Frameworks</li>
-						<li>Developed small Windows desktop applications with C# based frameworks and local SQL databases, designing the project forms UI and functionality on Visual Studio Community 2019</li>
-						<li>Gained foundational knowledge in cloud-based databases and game development with C# and MonoGame</li>
+						<li>Led a team in planning, documenting, and developing multi-featured web applications, managing the project life cycle from start to finish.</li>
+						<li>Built responsive and accessible Web/Desktop applications, prioritizing UI/UX design and accessibility.</li>
+						<li>Developed small Windows desktop applications with C# based frameworks and local SQL databases, designing the project forms UI and functionality on Visual Studio Community 2019.</li>
 					</ul>
 				</p>
 				<h2 className="text-center bg-tomato display-6 pb-2">Experience</h2>
@@ -68,9 +64,7 @@ const resume = () => {
 				<h5>May 2021 - August 2021</h5>
 				<p>
 					<ul>
-						<li>Identified and amended language conversion bugs in various UIs of internally-utilized applications during CI/CD cycles using error logs and developer tools</li>
-						<li>Implemented new functionalities to front ends of critical internally-utilized applications, resulting in seamless integration during CI/CD cycles</li>
-						<li>Enhanced UI aesthetics with new CSS through Docker and VS Code, boosting user satisfaction by 20%</li>
+						<li>Identified and fixed UI bugs while enhancing front-end aesthetics with CSS, leading to a 20% increase in user satisfaction.</li>
 					</ul>
 					
 				</p>
