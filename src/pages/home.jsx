@@ -26,8 +26,12 @@ function Home() {
 	];
 	return (
 		<div className="container-fluid">
-			<h1 className="text-center display-2 text-mustard">About Keith Sialana</h1>
-			<div className="row text-center">
+			<h1 className="text-center display-2 text-mustard">Hello friends!</h1>
+			<h2 className="text-center">
+				My name is <span className="text-tomato">Keith Sialana</span>, welcome to my
+				website!
+			</h2>
+			<div className="row text-center mt-5">
 				<div className="col-md-6">
 					<div className="text-center">
 						<img

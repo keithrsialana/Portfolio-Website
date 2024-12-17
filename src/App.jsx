@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header />
-      <main className='bg-yale'>
+      <main className='bg-yale-gradient'>
         {/* Renders the matched route component */}
         <Outlet />
       </main>
