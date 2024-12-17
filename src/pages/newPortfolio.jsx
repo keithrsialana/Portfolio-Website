@@ -1,16 +1,27 @@
 import React from "react";
 import ProjectElem from "../components/projectElem";
 import { projects } from "../data/projects";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const portfolio2 = () => {
 	const [activeProject, setActiveProject] = useState(null);
+	const scrollableRef = useRef(null);
 
 	const handleProjectClick = (project) => {
 		setActiveProject(project);
 	};
+
+	const scrollToTop = () => {
+		if (scrollableRef.current) {
+            scrollableRef.current.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+	}; 
+
 	return (
-		<div className="container-fluid vh-100">
+		<div className="container-fluid vh-100" ref={scrollableRef}>
 			<h1 className="text-center display-2 text-mustard mb-4">
 				Here are some projects I've done!
 			</h1>
@@ -64,7 +75,7 @@ const portfolio2 = () => {
 							imgUrl={project.imgUrl}
 							gitHubUrl={project.gitHubUrl}
 							deployedUrl={project.deployedUrl}
-							onClick={() => handleProjectClick(project)}
+							onClick={() => { handleProjectClick(project); scrollToTop(); }}
 						/>
 					);
 				})}
