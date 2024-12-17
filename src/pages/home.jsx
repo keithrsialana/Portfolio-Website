@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import ClickableImage from "../components/clickableImage";
 import ArticleSection from "../components/articleSection";
+import { FaReact, FaCss3Alt } from "react-icons/fa";
+import { DiJavascript, DiPostgresql } from "react-icons/di";
+import { SiTypescript, SiMongodb } from "react-icons/si";
+import { TbSql, TbBrandCSharp } from "react-icons/tb";
+
 function Home() {
 	const bios = [
 		{
@@ -27,15 +32,76 @@ function Home() {
 	return (
 		<div className="container-fluid">
 			<h1 className="text-center display-2 text-mustard">Hello friends!</h1>
-			<h2 className="text-center">
-				My name is <span className="text-tomato">Keith Sialana</span>, welcome to my
-				website!
+			<h2 className="text-center mb-5">
+				My name is <span className="text-tomato">Keith Sialana</span>, welcome
+				to my website!
 			</h2>
+			<div className="container">
+				<h2 className="text-center bg-mustard display-7 pb-2 pl-2 pr-2 text-black rounded dropshadow">
+					<h2 className="centered bg-tomato">Main Technologies</h2>
+					<span className="row">
+						<span className="col enlarge-anim">
+							<FaReact style={{ fontSize: "1.5em" }} />
+							<div>React.JS</div>
+						</span>
+						<span className="col enlarge-anim">
+							<DiJavascript
+								style={{ fontSize: "1.5em" }}
+							/>
+							<div>Javascript</div>
+						</span>
+						<span className="col enlarge-anim">
+							<SiTypescript
+								style={{ fontSize: "1.5em" }}
+							/>
+							<div>Typescript</div>
+						</span>
+						<span className="col enlarge-anim">
+							<FaCss3Alt
+								style={{ fontSize: "1.5em" }}
+							/>
+							<div>Javascript</div>
+						</span>
+					</span>
+					<span className="row">
+						<span className="col enlarge-anim">
+							<DiPostgresql
+								style={{ fontSize: "1.5em" }}
+							/>
+							<div>PostgreSQL</div>
+						</span>
+						<span className="col enlarge-anim">
+							<SiMongodb
+								style={{ fontSize: "1.5em" }}
+							/>
+							<div>MongoDB</div>
+						</span>
+						<span className="col enlarge-anim">
+							<TbSql style={{ fontSize: "1.5em" }} />
+							<div>SQL</div>
+						</span>
+						<span className="col enlarge-anim">
+							<TbBrandCSharp
+								style={{ fontSize: "1.5em" }}
+							/>
+							<div>C#</div>
+						</span>
+					</span>
+				</h2>
+			</div>
+			<div className="container">
+				<h2 className="rounded bg-moonstone centered looping-hover-anim mt-5 text-white pt-3 pb-3 dropshadow">
+					Mastering the
+					<span className="rainbow-text">&#160;art of code&#160;</span>
+					with a perpetual drive to explore new technologies
+				</h2>
+			</div>
+
 			<div className="row text-center mt-5">
 				<div className="col-md-6">
 					<div className="text-center">
 						<img
-							className="img-fluid glow profilePic mb-3"
+							className="img-fluid glow profilePic mb-3 dropshadow"
 							src="/pfp.png"
 							alt="Keith Sialana"
 						/>

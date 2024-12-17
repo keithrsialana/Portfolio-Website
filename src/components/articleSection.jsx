@@ -6,7 +6,7 @@ const articleSection = (props) => {
 		<>
 		<div className="hover-anim">
 			<h1 className="display-5 bg-tomato">{title}</h1>
-			<p className="bg-antiflashWhite">
+			<p className="bg-antiflashWhite dropshadow">
 				{content}
 			</p>
 		</div>

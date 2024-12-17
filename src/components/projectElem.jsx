@@ -4,7 +4,7 @@ const projectElem = (props) => {
 	const { title, description, imgUrl, gitHubUrl, deployedUrl, tech, onClick } = props;
 	return (
 		<li>
-			<div class="card" onClick={onClick}>
+			<div class="card dropshadow" onClick={onClick}>
 				<img src={imgUrl} class="card__image" alt="" />
 				<div class="card__overlay">
 					<div class="card__header">

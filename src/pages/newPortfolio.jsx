@@ -31,18 +31,18 @@ const portfolio2 = () => {
 						<img
 							src={activeProject.imgUrl}
 							alt=""
-							className="page-image glow"
+							className="page-image glow dropshadow"
 						/>
 					</div>
-					<div className="active-project-card glow bg-yale-darker">
+					<div className="active-project-card bg-antiflashWhite glow dropshadow dashed-border">
 						<div>
-							<h2 className="text-mustard">{activeProject.title}</h2>
+							<h2 className="text-tomato">{activeProject.title}</h2>
 						</div>
 						<div>
-							<h5 className="text-tomato">{activeProject.tech}</h5>
+							<h5 className="text-yale">{activeProject.tech}</h5>
 						</div>
 						<div>
-							<p>{activeProject.description}</p>
+							<p className="text-yale-darker">{activeProject.description}</p>
 						</div>
 						<div>
 							<a href={activeProject.gitHubUrl}>

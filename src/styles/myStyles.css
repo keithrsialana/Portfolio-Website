@@ -280,6 +280,58 @@ h5 {
 	justify-content: center;
 }
 
+.looping-hover-anim {
+	animation: looping-hover 2s infinite;
+}
+
+.rainbow-text {
+	background: linear-gradient(
+		to right,
+		#ff0000,
+		#ffa07a,
+		#ffff00,
+		#008000,
+		#0000ff,
+		#4b0082
+	);
+	background-size: 400% 100%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: rainbow 10s ease infinite;
+}
+
+.dashed-border {
+  border: 4px dashed var(--yale-darker);
+}
+
+.dropshadow {
+	box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.294);
+}
+
+@keyframes rainbow {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes looping-hover {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
 @media (max-width: 1095px) {
 	.cards {
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
