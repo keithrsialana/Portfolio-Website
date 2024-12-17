@@ -45,36 +45,6 @@ function Home() {
 					})}
 				</div>
 			</div>
-			<h1 className="text-center display-2">Portfolio</h1>
-			<div className="row portfolio-bg">
-				<Link to="/portfolio">
-					<ClickableImage
-						url="https://cdn.pixabay.com/photo/2020/01/11/07/39/north-4756774_960_720.jpg"
-						title="Keith's Projects"
-						description="Keith has worked on many projects since college, click here to see some of his most proud ones!"
-					/>
-				</Link>
-			</div>
-			<h1 className="text-center display-2">Contact Me</h1>
-			<div className="row contact-bg">
-				<Link to="/contact">
-					<ClickableImage
-						url="https://cdn.pixabay.com/photo/2019/09/04/19/14/planet-4452434_960_720.jpg"
-						title="Contact Keith"
-						description="Click here to find ways to connect and contact Keith!"
-					/>
-				</Link>
-			</div>
-			<h1 className="text-center display-2">Resume</h1>
-			<div className="row resume-bg">
-				<Link to="/resume">
-					<ClickableImage
-						url="https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_960_720.jpg"
-						title="Keith's Resume"
-						description="If you want to learn more about Keith's background, click here to read all about it through his resume!"
-					/>
-				</Link>
-			</div>
 		</div>
 	);
 }
