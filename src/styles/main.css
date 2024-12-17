@@ -1,11 +1,3 @@
-:root {
-	--yale: #1b4079;
-	--yale-darker: #0d2a57;
-	--tomato: #f06449;
-	--mustard: #fed766;
-	--moonstone: #009fb7;
-	--antiflashWhite: #eff1f3;
-}
 /* BS overrides --------------------------------------------------------*/
 .display-5 {
 	color: var(--antiflashWhite);

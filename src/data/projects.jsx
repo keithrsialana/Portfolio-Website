@@ -5,7 +5,7 @@ export const projects = [
         description:
             "For the final project of the EdX Bootcamp, our group unanimously decided to create a web application game based on Hasbro's Connect 4 that utilizes Socket.IO for real-time gameplay against other players. The deployed webpage will take a while to load, you might need to refresh the page a few times.",
         imgUrl:
-            "https://images.unsplash.com/photo-1615650574132-10488b88f4f0?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "JIMKConnect4.png",
         gitHubUrl: "https://github.com/keithrsialana/jimk-connect4",
         deployedUrl: "https://jimk-connect4.onrender.com/",
     },    

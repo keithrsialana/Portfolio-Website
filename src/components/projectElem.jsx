@@ -1,10 +1,10 @@
 import React from "react";
 
 const projectElem = (props) => {
-	const { title, description, imgUrl, gitHubUrl, deployedUrl, tech } = props;
+	const { title, description, imgUrl, gitHubUrl, deployedUrl, tech, onClick } = props;
 	return (
 		<li>
-			<a href={gitHubUrl} class="card">
+			<div class="card" onClick={onClick}>
 				<img src={imgUrl} class="card__image" alt="" />
 				<div class="card__overlay">
 					<div class="card__header">
@@ -17,18 +17,9 @@ const projectElem = (props) => {
 							<span class="card__status">[ {tech} ]</span>
 						</div>
 					</div>
-					<div className="centered">
-						{deployedUrl ? (
-							<button className="btn bg-tomato" href={deployedUrl}>
-								View Deployed Website
-							</button>
-						) : (
-							<></>
-						)}
-					</div>
 					<p class="card__description">{description}</p>
 				</div>
-			</a>
+			</div>
 		</li>
 	);
 };
