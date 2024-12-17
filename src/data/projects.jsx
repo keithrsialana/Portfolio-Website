@@ -25,7 +25,7 @@ export const projects = [
         description:
             "This group project aims to use OpenAI API and Spotify API to collaborate with the user to generate a playlist based on the user's mood. The application will prompt the user to enter their mood, and will 'talk' to the OpenAI API to generate a list of 15 songs based on the user's mood. The deployed webpage will take a while to load, you might need to refresh the page a few times.",
         imgUrl:
-            "https://cdn.pixabay.com/photo/2017/02/10/17/10/heart-2055695_960_720.png",
+            "Moody.png",
         gitHubUrl: "https://github.com/keithrsialana/Moody",
         deployedUrl: "https://moody-so0y.onrender.com",
     },
@@ -35,7 +35,7 @@ export const projects = [
         description:
             "This group project lets the user add their own list of movies that they would like to watch or re-watch, and have the app randomly pick between the movies in the list.",
         imgUrl:
-            "https://cdn.pixabay.com/photo/2022/10/31/05/12/movie-theater-7558935_960_720.png",
+            "HoneYourHollywood.png",
         gitHubUrl: "https://github.com/keithrsialana/hone-your-hollywood",
         deployedUrl: "https://keithrsialana.github.io/hone-your-hollywood/",
     },
