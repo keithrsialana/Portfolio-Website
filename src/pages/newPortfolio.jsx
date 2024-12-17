@@ -12,6 +12,7 @@ const portfolio2 = () => {
 	};
 
 	const scrollToTop = () => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 		if (scrollableRef.current) {
             scrollableRef.current.scrollTo({
                 top: 0,
