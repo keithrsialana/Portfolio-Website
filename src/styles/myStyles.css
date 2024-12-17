@@ -262,3 +262,8 @@ h5 {
 .resume p {
 	margin-left: 1.5em !important;
 }
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
