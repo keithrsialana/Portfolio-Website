@@ -95,7 +95,7 @@
 	border-radius: 50%;
 }
 .card__title {
-	font-size: 1em;
+	font-size: 1.5em;
 	margin: 0 0 0.3em;
 	color: var(--mustard);
 }
