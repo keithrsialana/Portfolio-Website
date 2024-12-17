@@ -11,17 +11,17 @@ export const projects = [
     },    
     {
         title: "HMRDiscordBot",
-        tech: "Javascript",
+        tech: "Javascript, Discord.js",
         description:
             "Using Discord.js, Keith created from scratch, this General-Use Bot for his server in a social platform called Discord.",
         imgUrl:
-            "https://cdn.pixabay.com/photo/2024/03/11/19/15/ai-generated-8627457_960_720.png",
+            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frepository-images.githubusercontent.com%2F40484398%2Fe305e980-cb80-11eb-9bb9-c5d3ec013658&f=1&nofb=1&ipt=1a2f7ba9bad7a361c2a7749ed989674548082256cb7af2b715128732c68dd0e1&ipo=images",
         gitHubUrl: "https://github.com/keithrsialana/HMRDiscordBot",
         deployedUrl: "",
     },
     {
         title: "Moody",
-        tech: "Typescript, SCSS, React, PostgreSQL",
+        tech: "Typescript, React, PostgreSQL, OpenAI API, Spotify API",
         description:
             "This group project aims to use OpenAI API and Spotify API to collaborate with the user to generate a playlist based on the user's mood. The application will prompt the user to enter their mood, and will 'talk' to the OpenAI API to generate a list of 15 songs based on the user's mood. The deployed webpage will take a while to load, you might need to refresh the page a few times.",
         imgUrl:
