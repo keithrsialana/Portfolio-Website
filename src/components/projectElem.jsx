@@ -13,16 +13,16 @@ const projectElem = (props) => {
 						</svg>
 						<img
 							class="card__thumb"
-							src="https://i.imgur.com/7D7I6dI.png"
+							src="pfp.png"
 							alt=""
 						/>
 						<div class="card__header-text">
 							<h3 class="card__title">{title}</h3>
-							<span class="card__status">[{tech}]</span>
+							<span class="card__status">[ {tech} ]</span>
 						</div>
 					</div>
+                    {deployedUrl?<button className="btn bg-tomato" href={deployedUrl}>View Deployed Website</button>:<></>}
 					<p class="card__description">{description}</p>
-                    <button className=""></button>
 				</div>
 			</a>
 		</li>
