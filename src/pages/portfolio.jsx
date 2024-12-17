@@ -9,7 +9,7 @@ const portfolio = () => {
 			<h1 className="text-center display-2 text-mustard mb-4">
 				Here are some projects I've done!
 			</h1>
-			<div className="card-group">
+			<div className="card-group vh-100">
 				<div className="row">
 					{projects.map((project) => {
 						return (

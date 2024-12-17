@@ -5,6 +5,7 @@ import App from './App'
 import Home from './pages/home'
 import Contact from './pages/contact'
 import Portfolio from './pages/portfolio'
+import Portfolio2 from './pages/portfolio copy'
 import Resume from './pages/resume'
 import { StrictMode } from 'react'
 
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
     element: <App />, // the component where the paths are rendered
     children: [
       { path: '/', element: <Home /> },
-      { path: '/portfolio', element: <Portfolio /> },
+      { path: '/portfolio', element: <Portfolio2 /> },
       { path: '/contact', element: <Contact /> },
       { path: '/resume', element: <Resume /> }
     ],
