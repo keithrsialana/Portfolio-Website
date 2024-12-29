@@ -1,5 +1,15 @@
 export const projects = [
     {
+        title: "Project Defiance",
+        tech: "Unity, C#",
+        description:
+            "A Unity game development project with a small team of developers to revive a long beloved game called Defiance. The project is in early development phase.",
+        imgUrl:
+            "ss_37b85ace7ff71cb40330b972eab115088be9b130.jpg",
+        gitHubUrl: "",
+        deployedUrl: "https://store.steampowered.com/app/2892320/Project_Defiance/",
+    },
+    {
         title: "JIMK Connect 4",
         tech: "Typescript, React, MongoDB, Socket.IO",
         description:
