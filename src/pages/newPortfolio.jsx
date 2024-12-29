@@ -46,15 +46,18 @@ const portfolio2 = () => {
 							<p className="text-yale-darker">{activeProject.description}</p>
 						</div>
 						<div>
-							<a href={activeProject.gitHubUrl}>
+							{activeProject.gitHubUrl? (<a href={activeProject.gitHubUrl}>
 								<button className="btn bg-moonstone">
 									View Github Repository
 								</button>
 							</a>
+							):
+							<></>}
+							
 							{activeProject.deployedUrl ? (
 								<a href={activeProject.deployedUrl}>
 									<button className="btn bg-moonstone ml-3">
-										View Deployed Website
+										View Deployed
 									</button>
 								</a>
 							) : (
