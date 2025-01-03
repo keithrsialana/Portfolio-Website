@@ -13,7 +13,6 @@ const resume = () => {
 			<h1 className="text-center display-2 text-mustard">Keith Ronald Sialana</h1>
 			<ResumeContactItem label="Location" content="Guelph, ON, Canada"/>
 			<ResumeContactItem label="Email" content="keith.sialana@gmail.com" _link="mailto:keith.sialana@gmail.com"/>
-			<ResumeContactItem label="Phone Number" content="+1 (519) 731-5141"/>
 			<ResumeContactItem label="LinkedIn" content="https://www.linkedin.com/in/keithrsialana/" _link="https://www.linkedin.com/in/keithrsialana/"/>
 			<ResumeContactItem label="GitHub" content="https://github.com/keithrsialana/" _link="https://github.com/keithrsialana/"/>
 			<div className="container mt-3">
