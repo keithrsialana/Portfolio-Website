@@ -66,10 +66,13 @@ const contact = () => {
 	}
 
 	return (
-		<div className="text-center ">
+		<div className="text-center vh-100">
 			<IoMdMail style={{ color: "#F06449", fontSize: "5em" }} />
 			<h1 className="display-2 text-mustard">Contact Me (WIP)</h1>
-			<p>
+			
+			<span hidden>
+			//#region previous code
+			{/* <p>
 				My preferred method of contact is through email. If you would like to
 				send me an email, you can use this form.
 			</p>
@@ -138,7 +141,9 @@ const contact = () => {
 						</button>
 					</div>
 				</div>
-			</form>
+			</form> */}
+			//#endregion
+			</span>
 		</div>
 	);
 };
