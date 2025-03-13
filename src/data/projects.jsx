@@ -8,7 +8,15 @@ export const projects = [
             "JIMKConnect4.png",
         gitHubUrl: "https://github.com/keithrsialana/jimk-connect4",
         deployedUrl: "https://jimk-connect4.onrender.com/",
-    },    
+    },
+    {
+        title: "GPBC-website",
+        tech:"React.js",
+        description: "In this project, I create a website for a basketball club in my city. This project will include React.js and Javascript for the front-end. The back-end will be private for the club's use.",
+        imgUrl: "",
+        gitHubUrl: "https://github.com/keithrsialana/GPBC-website",
+        deployedUrl: "",
+    },
     {
         title: "HMRDiscordBot",
         tech: "Javascript, Discord.js",

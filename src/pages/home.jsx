@@ -26,7 +26,7 @@ function Home() {
 		{
 			title: "Current",
 			content:
-				"Finally graduating the EdX Full-Stack Development bootcamp, Keith is now working on expanding and sharpening his portfolio and resume, and is looking for jobs in the tech industry. On top of this, he has started participating in a Unity C# Game Development project to revive a beloved game called Defiance. The project can be found on Steam! If you're interested in giving him a chance through an interview, please don't hesitate to reach out!",
+				"Finally graduating the EdX Full-Stack Development bootcamp, Keith is now working on expanding and sharpening his portfolio and resume, and is looking for jobs in the tech industry. If you're interested in giving him a chance through an interview, please don't hesitate to reach out!",
 		},
 	];
 	return (
