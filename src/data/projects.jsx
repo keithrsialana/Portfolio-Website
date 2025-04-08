@@ -13,9 +13,9 @@ export const projects = [
         title: "GPBC-website",
         tech:"React.js",
         description: "In this project, I create a website for a basketball club in my city. This project will include React.js and Javascript for the front-end. The back-end will be private for the club's use.",
-        imgUrl: "",
+        imgUrl: "337291420_529396322606954_6736792181419771177_n.jpg",
         gitHubUrl: "https://github.com/keithrsialana/GPBC-website",
-        deployedUrl: "",
+        deployedUrl: "https://guelphpinoyballclub.netlify.app/",
     },
     {
         title: "HMRDiscordBot",
