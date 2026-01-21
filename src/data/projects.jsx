@@ -1,5 +1,15 @@
 export const projects = [
     {
+        title: "Playlist Guru AI",
+        tech: "Javascript, React, Open Router API, Meta Llama 4 Model",
+        description:
+            "This is a smaller version of the other project that I worked on using AI and Spotify to create a mood playlist using the user's mood input. This one only uses AI API calls to OpenRouter API using my own API KEY. This project doesn't include making your own account to use the application.",
+        imgUrl:
+            "Playlist_Guru_AI.png",
+        gitHubUrl: "https://github.com/keithrsialana/PlaylistGuru",
+        deployedUrl: "https://playlistguruai.netlify.app/",
+    },
+    {
         title: "JIMK Connect 4",
         tech: "Typescript, React, MongoDB, Socket.IO",
         description:
